@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav .left {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #1abc9c;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 5rem 2rem;
+      min-height: 90vh;
+    }
+
+    .leftSection {
+      max-width: 50%;
+    }
+
+    .leftSection h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #1abc9c;
+    }
+
+    .leftSection p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .rightSection img {
+      width: 300px;
+      height: 300px;
+      border-radius: 15px;
+      border: 5px solid #1abc9c;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .secondSection {
+      padding: 5rem 2rem;
+      background-color: #f8f9fa;
+      color: #333;
+      perspective: 1000px;
+    }
+
+    .secondSection h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    .box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .vertical {
+      background: #fff;
+      padding: 2rem;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 250px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      transform-style: preserve-3d;
+    }
+
+    .vertical:hover {
+      transform: rotateY(10deg) rotateX(10deg);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .vertical img {
+      width: 50px;
+      margin-bottom: 1rem;
+    }
+
+    .verticalText {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .verticalDESC {
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .firstSection {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .leftSection {
+        max-width: 100%;
+      }
+
+      .rightSection img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Welcome Back</div>
+      <ul>
+        <li><a href="d:\webite\home.html">Home</a></li>
+        <li><a href="d:\webite\About Me.html">About Me</a></li>
+        <li><a href="d:\webite\Contact Us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <h1>Hi, My name is <span class="purple"><u>Ashwani Dalal</u></span></h1>
+        <p>and I am passionate</p>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="c:\Users\admin\Downloads\1N2A0967.JPG" alt="Ashwani Dalal">
+      </div>
+    </section>
+    <section class="secondSection">
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">HTML DEVELOPER (2020-21)</div>
+          <div class="verticalDESC">In this period of time I learned all the basic tools of HTML, CSS, JS, Bootstrap</div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">Advance (2021-22)</div>
+          <div class="verticalDESC">In this period of time I make my hand strong on the BACKEND {C, C++}</div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">Government Job (2021-22)</div>
+          <div class="verticalDESC">I cleared 2 Govt. exams {Indian Air Force, SSC CHSL}</div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">HTML DEVELOPER (2010-22)</div>
+          <div class="verticalDESC">Still practicing on both FRONTEND and BACKEND</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Data Analyst', 'Data Cleaner', 'Data Visualizer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>

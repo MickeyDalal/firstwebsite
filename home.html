@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHWANI DALAL - Resume</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-top: 20px;
+        }
+
+        /* Main Styles */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            color: #343a40;
+            position: relative;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        section h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #343a40;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        section ul li {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+
+        /* Project Cards */
+        .project {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        .project h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #343a40;
+        }
+
+        .project p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Contact Section */
+        #contact {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            color: #343a40;
+            position: relative;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        #contact h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #343a40;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #343a40;
+            color: #fff;
+            position: relative;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Media Queries */
+        @media (max-width: 767px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+            section h2 {
+                font-size: 2rem;
+            }
+            .project h3 {
+                font-size: 1.5rem;
+            }
+            #contact h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ASHWANI DALAL</h1>
+        <!-- <img src="your-image.jpg" alt="Your Name"> -->
+        <img src="c:\Users\admin\Downloads\Ashwani (2).jpeg" alt="Your Name">
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate and dedicated individual with expertise in web development and programming. With a strong background in computer science and hands-on experience in various technologies, I am well-equipped to tackle complex challenges and deliver high-quality solutions.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Zomato Clone</h3>
+                <p>A personal portfolio website showcasing my skills and projects.</p>
+            </div>
+            <div class="project">
+                <h3>Car Price Prediction</h3>
+                <p>Developed an e-commerce platform using React and Node.js.</p>
+            </div>
+            
+        </section>
+      
+    </main>
+    <footer>
+        <p>&copy; 2023 ASHWANI DALAL. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
